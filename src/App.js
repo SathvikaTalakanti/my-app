@@ -7,7 +7,7 @@ import React from 'react';
  //import Functioncomponent from './components/Functioncomponent';
  //import Classcomponent from './components/Classcomponent';
 //  import PostList from './components/PostList';
- import PostForm from './components/PostForm.js';
+ import PostForm from './components/HTTP/PostForm.js';
 function App() {
   return (
     <div className="App">
