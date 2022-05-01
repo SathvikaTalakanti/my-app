@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+//import Counter from './components/Counter';
+//import Usestate from './components/Usestate';
+//import Onchange from './components/Onchange';
+//import Onsubmit from './components/Onsubmit';
+// import Themedemo from './components/Themedemo';
+ //import Functioncomponent from './components/Functioncomponent';
+ //import Classcomponent from './components/Classcomponent';
+//  import PostList from './components/PostList';
+ import PostForm from './components/PostForm.js';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       {/*<Usestate></Usestate>*/}
+       {/*<Counter></Counter>*/}
+       {/*<Onchange></Onchange>*/}
+        {/*<Onsubmit></Onsubmit>*/}
+        {/* <Themedemo></Themedemo> */}
+        {/* <Functioncomponent name="Sathvika" />
+        <Classcomponent name="Talakanti" /> */}
+        {/* <PostList></PostList> */}
+        <PostForm></PostForm>
     </div>
   );
 }
 
-export default App;
+export default App
