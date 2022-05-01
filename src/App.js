@@ -6,7 +6,7 @@ import React from 'react';
 // import Themedemo from './components/Themedemo';
  //import Functioncomponent from './components/Functioncomponent';
  //import Classcomponent from './components/Classcomponent';
-//  import PostList from './components/PostList';
+//  import PostList from './components/HTTP/PostList';
  import PostForm from './components/HTTP/PostForm.js';
 function App() {
   return (
